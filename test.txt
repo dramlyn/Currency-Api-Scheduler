@@ -1,0 +1,11 @@
+{
+    "success":true,
+    "timestamp":1701430443,
+    "base":"EUR",
+    "date":"2023-12-01",
+    "rates":{
+         "USD":1.089298,
+         "EUR":1,
+         "RUB":98.061345
+            }
+}

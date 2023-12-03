@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cron.currency.CurrencyApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-03T09:51:43" hostname="MacBook-Pro-Viktor.local" time="0.438">
+  <properties/>
+  <testcase name="contextLoads()" classname="cron.currency.CurrencyApplicationTests" time="0.438"/>
+  <system-out><![CDATA[15:51:43.459 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [cron.currency.CurrencyApplicationTests]: CurrencyApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:51:43.507 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration cron.currency.CurrencyApplication for test class cron.currency.CurrencyApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2023-12-03T15:51:43.675+06:00  INFO 69657 --- [    Test worker] cron.currency.CurrencyApplicationTests   : Starting CurrencyApplicationTests using Java 21.0.1 with PID 69657 (started by mrvik in /Users/mrvik/Desktop/currency)
+2023-12-03T15:51:43.676+06:00  INFO 69657 --- [    Test worker] cron.currency.CurrencyApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-12-03T15:51:43.937+06:00  INFO 69657 --- [    Test worker] cron.currency.CurrencyApplicationTests   : Started CurrencyApplicationTests in 0.372 seconds (process running for 0.948)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/mrvik/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.10/90ed94ac044ea8953b224304c762316e91fd6b31/byte-buddy-agent-1.14.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
